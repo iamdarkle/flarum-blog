@@ -102,7 +102,7 @@ export default class FeaturedBlogItem extends Component<Attrs> {
           article.tags().map((tag) => `BlogFeatured-list-item-category-${tag.id()}`),
           'FlarumBlog-default-image'
         )}
-        style={{ backgroundImage: blogImage }}
+        style={{ backgroundImage: /cdn-cgi/image/width=800/blogImage }}
       >
         <div class="BlogFeatured-list-item-top">{this.topItems().toArray()}</div>
 
